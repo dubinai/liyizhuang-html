@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>兴趣爱好 - 李羿壮</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;font-family:"Microsoft Yahei",sans-serif;}
+        body{background:#050816;color:#fff;}
+        .bg{position:fixed;top:0;left:0;width:100%;height:100%;background:url(https://picsum.photos/id/20/1920/1080) center/cover;opacity:0.1;z-index:-1;}
+        nav{width:100%;padding:20px 5%;background:rgba(255,255,255,0.05);backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,0.1);position:sticky;top:0;z-index:99;}
+        .nav-box{max-width:1000px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;}
+        .logo{font-size:22px;font-weight:bold;color:#409eff;}
+        .nav-a a{color:#ccc;text-decoration:none;margin:0 10px;padding:6px 10px;border-radius:6px;transition:0.3s;}
+        .nav-a a:hover{color:#409eff;background:rgba(64,158,255,0.1);}
+        .container{max-width:1000px;margin:0 auto;padding:60px 20px;}
+        h2{font-size:28px;color:#409eff;margin-bottom:25px;border-left:4px solid #409eff;padding-left:12px;}
+        .banner{width:100%;height:240px;border-radius:12px;overflow:hidden;margin-bottom:35px;position:relative;box-shadow:0 8px 30px rgba(64,158,255,0.15);}
+        .banner img{width:100%;height:100%;object-fit:cover;}
+        .banner::after{content:"我的兴趣爱好";position:absolute;top:0;left:0;width:100%;height:100%;background:linear-gradient(to top,rgba(5,8,22,0.8),transparent 60%);display:flex;align-items:flex-end;justify-content:center;padding-bottom:25px;font-size:26px;color:#fff;}
+        .card{background:rgba(255,255,255,0.05);padding:35px;border-radius:12px;border:1px solid rgba(64,158,255,0.2);}
+        .card p{color:#b0b8c4;line-height:2;font-size:16px;text-indent:2em;margin-bottom:15px;}
+        footer{margin-top:80px;padding:30px 0;text-align:center;color:#888;border-top:1px solid rgba(255,255,255,0.1);}
+    </style>
+</head>
+<body>
+    <div class="bg"></div>
+    <nav>
+        <div class="nav-box">
+            <div class="logo">李羿壮</div>
+            <div class="nav-a">
+                <a href="index.html">首页</a>
+                <a href="about.html">关于我</a>
+                <a href="hobby.html">兴趣爱好</a>
+                <a href="contact.html">联系方式</a>
+                <a href="message.html">留言板</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2>兴趣爱好</h2>
+        <div class="banner">
+            <img src="https://picsum.photos/id/96/1000/240" alt="爱好配图">
+        </div>
+        <div class="card">
+            <p>在忙碌的学习之余，我有着许多放松身心的爱好。平日里我十分喜欢听音乐，不同风格的歌曲能够舒缓压力，让我保持轻松愉悦的心情。</p>
+            <p>运动也是我生活中不可缺少的一部分，课余时间我会和伙伴们一起锻炼，跑步、打球都是我的选择，坚持运动能让我拥有健康的体魄和饱满的精神状态。</p>
+            <p>闲暇时候我也会观看影视视频，了解新鲜趣事，偶尔也会出门散步，感受生活中的美好。这些爱好丰富了我的课余生活，也让我的每一天都过得充实有趣。</p>
+        </div>
+    </div>
+
+    <footer>© 2026 李羿壮 个人主页 版权所有</footer>
+</body>
+</html>
